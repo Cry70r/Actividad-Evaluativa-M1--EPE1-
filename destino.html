@@ -18,6 +18,11 @@
         .navbar-brand, .navbar-nav .nav-link {
             color: #ffffff; /* Color del texto del menú de navegación */
         }
+        /* Establecer dimensiones fijas para las imágenes */
+        .fixed-image {
+            width: 300px; /* Ancho fijo */
+            height: 200px; /* Altura fija */
+            object-fit: cover; /* Para asegurar que las imágenes mantengan su relación de aspecto */
     </style>
 </head>
 <body>
@@ -55,10 +60,15 @@
 
 <!-- Contenido de la página -->
 <div class="container">
-    <h1>Bienvenido a Vuela Lejos</h1>
-    <p>¡Tu aerolínea de confianza para viajar a destinos emocionantes!</p>
-    <img src="assets/avion1.png" class="d-block w100" alt="imagen1"></img>
-
+    <h1>Destinos</h1>
+    <p>Brasil</p>
+    <img src="assets/brasil.png" class="fixed-image" alt="imagen2"></img>
+    <p>Alemania</p>
+    <img src="assets/alemania.png" class="fixed-image" alt="imagen3"></img>
+    <p>Francia</p>
+    <img src="assets/francia.png" class="fixed-image" alt="imagen1"></img>
+    <p>Portugal</p>
+    <img src="assets/portugal.png" class="fixed-image" alt="imagen2"></img>
 </div>
 
 <!-- Scripts de Bootstrap (jQuery y Popper.js necesarios para Bootstrap) -->
